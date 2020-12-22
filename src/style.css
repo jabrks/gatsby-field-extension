@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: #222;
+}
+
+main {
+  margin: 5rem auto;
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+
+h1 {
+  margin-bottom: 3rem;
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+hr {
+  border: 1px solid #eee;
+  margin: 3rem 0;
+}
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding: 0;
+}
+
+.blog-posts li {
+  list-style: none;
+}
+
+.blog-posts li a {
+  text-decoration: none;
+}
+
+.blog-posts li a img {
+  width: 100%;
+}
+
+.blog-posts li a:hover h3 {
+  text-decoration: underline;
+}
+
+.blog-posts li h3 {
+  margin-top: 0.5rem;
+  font-size: 1.35rem;
+  color: #222;
+}
